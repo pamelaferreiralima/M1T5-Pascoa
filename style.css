@@ -1,1 +1,138 @@
-{}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 917px;
+    display: flex;
+
+    background-color: white;
+
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    background-color: black;
+
+}
+footer{
+    width: 1366px;
+    height: 1586px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#circles-area{
+    width: 1366px;
+    height: 638px;
+    display: flex;
+}
+#circles-boxes{
+    width: 100vw;
+    display: flex;
+    background-color: #8A493D;
+
+}
+#circles-left-box{
+    width: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem 1rem 3rem 1rem;
+}
+.circles-figure{
+    width: none;
+    height: 20rem;
+}
+.circles-img-box{
+
+}
+.circles-title-text-box{
+    padding: 0rem 5rem 0rem 5rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.circles-open-day-text-box{
+    width: 14rem;
+    height: 0rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.circles-text-box{
+    width: none;
+    height: 17vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.circles-address-text-box{
+    width: 20rem;
+    height: none;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF; 
+}
+#circles-middle-box{
+    width: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem 1rem 3rem 1rem;
+}
+#circles-right-box{
+    width: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem 1rem 3rem 1rem;
+}
+#form-area{
+    width: 1366px;
+    height: 847px;
+    display: flex;
+}
+#form-box{
+    width: 100vw;
+    display: flex;
+    background-color: #FFFFFF;
+
+}
+#icons-area{
+    width: 1366px;
+    height: 101px;
+    display: flex;
+}
+#icons-box{
+    width: 100vw;
+    display: flex;
+    background-color: #ABAAAA;
+
+}
