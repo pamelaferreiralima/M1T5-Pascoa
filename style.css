@@ -151,6 +151,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #F7F7F7;
 }
 #form-elem{
     width: 65vw;
@@ -218,6 +219,67 @@ footer{
 #icons-box{
     width: 100vw;
     display: flex;
+    justify-content: space-between;
     background-color: #ABAAAA;
 
+}
+#icons-left-box{
+    display: flex;
+    width: 20rem;
+    background-color: #FFFFFF;
+    flex-wrap: nowrap;
+
+}
+#fig-left-box{
+    display: flex;
+    width: 20rem;
+    height: 6rem;
+}
+#logo-footer-box{
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem 1rem 1rem 1.3rem;
+}
+#tipo-footer-box{
+    width: 14rem;
+    height: 6rem;
+    padding: 2.1rem 1rem 1rem 1rem;
+}
+#icons-right-box{
+    display: flex;
+    width: 21rem;
+}
+#fig-right-box{
+    display: flex;
+    height: 6rem;
+}
+#icon-fb-footer-box{
+    display: flex;
+    width: 5rem;
+    height: 6rem;
+    padding: 0 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+#icon-twt-footer-box{
+    display: flex;
+    width: 5rem;
+    height: 6rem;
+    padding: 0 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+#icon-insta-footer-box{
+    display: flex;
+    width: 5rem;
+    height: 6rem;
+    padding: 0 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+.icon-hyperlink{
+    opacity:1;
+}
+.icon-hyperlink:hover{
+    opacity:0.5;
 }
