@@ -469,7 +469,7 @@ footer{
 }
 .circles-img-box{
     width: none;
-    height: 20rem;
+    height: 19rem;
 }
     @media (max-width: 1024px) {
         .circles-img-box {
