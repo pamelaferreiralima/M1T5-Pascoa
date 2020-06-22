@@ -104,6 +104,7 @@ footer{
     text-align: center;
     color: #FFFFFF;
 }
+/*
     @media screen and (max-width: 1024px) {
         .circles-text-box {
             height: 40vh;
@@ -121,7 +122,8 @@ footer{
         }
     }
     */
-    /*
+    */
+    
     @media (max-width: 1024px) {
     .circles-text-box {
         height: 40vh;
@@ -142,7 +144,7 @@ footer{
             height: 14vh;
         }
     }
-    */
+    
 .circles-address-text-box{
     width: 20rem;
     height: none;
