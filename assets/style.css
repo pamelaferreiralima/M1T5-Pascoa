@@ -478,7 +478,7 @@ footer{
     }
     @media (max-width: 768px) {
         .circles-img-box {
-            height: 16rem;
+            height: 13rem;
         }
     }
     @media (max-width: 425px) {
@@ -503,6 +503,11 @@ footer{
     
     color: #FFFFFF;
 }
+    @media (max-width: 768px) {
+        .circles-title-text-box {
+            font-size: 18px;
+        }
+    }
 .circles-open-day-text-box{
     width: 14rem;
     height: 1rem;
@@ -577,6 +582,11 @@ footer{
 
     color: #FFFFFF; 
 }
+    @media (max-width: 768px) {
+        .circles-address-text-box {
+            width: 13rem;
+            font-size: 18px;        }
+    }
 #circles-middle-box{
     width: 33vw;
     display: flex;
